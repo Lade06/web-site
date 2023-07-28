@@ -5,7 +5,7 @@ const Signup = () => {
             <div className="sign mt-5">
             <form action="/action_page.php">
            <div className="mb-3 mt-3">
-            <label for="firstname" className="form-label">
+            <label htmlFor="firstname" className="form-label">
               First Name
             </label>{" "}
             <br />
@@ -17,7 +17,7 @@ const Signup = () => {
             />
           </div>
           <div className="mb-3 mt-3">
-            <label for="lastname" className="form-label">
+            <label htmlFor="lastname" className="form-label">
               Last Name
             </label>{" "}
             <br />
@@ -29,7 +29,7 @@ const Signup = () => {
             />
           </div>
           <div className="mb-3 mt-3">
-            <label for="email" className="form-label">
+            <label htmlFor="email" className="form-label">
               Email Address
             </label>{" "}
             <br />
@@ -41,7 +41,7 @@ const Signup = () => {
             />
           </div>
           <div className="mb-3 mt-3">
-            <label for="phone" className="form-label">
+            <label htmlFor="phone" className="form-label">
               Phone Number
             </label>{" "}
             <br />
@@ -53,7 +53,7 @@ const Signup = () => {
             />
           </div>
           <div className="mb-3">
-            <label for="pwd" className="form-label">
+            <label htmlFor="pwd" className="form-label">
               Password
             </label>{" "}
             <br />
