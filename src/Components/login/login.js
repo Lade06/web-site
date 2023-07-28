@@ -6,7 +6,7 @@ const Login = () => {
       <div className="loginn mt-5">
         <form action="/action_page.php">
           <div className="mb-3 mt-3">
-            <label for="email" className="form-label">
+            <label htmlFor="email" className="form-label">
               Email Address
             </label>{" "}
             <br />
@@ -18,7 +18,7 @@ const Login = () => {
             />
           </div>
           <div className="mb-3">
-            <label for="pwd" className="form-label">
+            <label htmlFor="pwd" className="form-label">
               Password
             </label>{" "}
             <br />
